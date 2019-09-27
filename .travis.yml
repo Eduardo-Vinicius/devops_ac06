@@ -4,9 +4,7 @@ python:
 
 before_install:
 - python --version
-- pip install -U pip
-- pip install -U pytest
-- pip install -U pytest-cov
-
+- pip install -r requirements.txt
 script:
-- pytest --cov=com.eduardodavi com/eduardodavi/test/
+- pylint_runner
+- pytest --cov=com.eduardodavi com/eduardodavi/test
