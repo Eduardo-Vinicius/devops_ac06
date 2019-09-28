@@ -25,7 +25,7 @@ def test_sem_atraso():
     '''
     Testa o pagamento sem atraso
     '''
-    pagamento = valorPagamento(400, 0)
+    pagamento = valor_pagamento(400, 0)
     assert pagamento == 400
 
 

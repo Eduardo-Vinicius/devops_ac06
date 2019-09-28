@@ -21,7 +21,7 @@ class ContaCorrente:
         '''
         Alterar nome do correntista
         '''
-        self.nome_correntista = novo_nome
+        self.alterar_nome = novo_nome
 
     def deposito(self, valor):
         '''

@@ -10,8 +10,8 @@ def test_trocar_nome():
     Teste trocar nome
     '''
     conta = ContaCorrente(123, "x")
-    conta.alterarNome('Eduardo')
-    assert conta.nomeCorrentista == 'Eduardo', "Deveria ser Eduardo"
+    conta.alterar_nome('Eduardo')
+    assert conta.nome_correntista == 'Eduardo', "Deveria ser Eduardo"
 
 
 def test_deposito():
