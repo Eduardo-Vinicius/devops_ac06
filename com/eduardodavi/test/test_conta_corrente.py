@@ -10,7 +10,7 @@ def test_trocar_nome():
     Teste trocar nome
     '''
     conta = ContaCorrente(123, "x")
-    conta.alterar_nome('Eduardo')
+    conta.alterar_nome_correntista('Eduardo')
     assert conta.alterar_nome == 'Eduardo', "Deveria ser Eduardo"
 
 
