@@ -5,19 +5,23 @@ Função que diz o valor da conta corrente
 
 class ContaCorrente:
 
-    def __init__(self, numero, nome_correntista, saldo=0.0):
+    '''
+    Classe da Conta Corrente
+    '''
+
+    def __init__(self, numero, novo_nome, saldo=0.0):
         '''
         Construtor da classe
         '''
         self.numero = numero
-        self.alterarNome = nome_correntista
+        self.alterar_nome = novo_nome
         self.saldo = saldo
 
-    def alterar_nome(self, nome_correntista):
+    def alterar_nome_correntista(self, novo_nome):
         '''
         Alterar nome do correntista
         '''
-        self.nomeCorrentista = nome_correntista
+        self.nome_correntista = novo_nome
 
     def deposito(self, valor):
         '''
