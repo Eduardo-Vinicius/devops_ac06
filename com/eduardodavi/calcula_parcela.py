@@ -8,6 +8,12 @@ def valor_pagamento(valor, dias_atraso):
     Função que verifica os valores, e vê se a multa é aplicavel ou não,
     conforme cada caso
     '''
+
+
+def valorPagamento(valor, dias_atraso):
+    '''
+    Valor dos atrasos
+    '''
     if valor < 0:
         return None
     if dias_atraso > 0:

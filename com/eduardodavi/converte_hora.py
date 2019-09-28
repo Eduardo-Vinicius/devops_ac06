@@ -1,3 +1,8 @@
+'''
+Função que converte hora e devolve ela formatada
+'''
+
+
 def converte_hora(hora24, minuto24):
     '''
     Função que converte hora e devolve ela formatada
