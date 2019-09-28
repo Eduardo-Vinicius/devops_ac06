@@ -1,4 +1,3 @@
-import pytest
 from com.eduardodavi.converte_hora import converteHora
 
 
