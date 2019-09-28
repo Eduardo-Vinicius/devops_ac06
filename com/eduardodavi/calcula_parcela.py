@@ -1,5 +1,12 @@
-def valorPagamento(valor, diasAtraso):
+'''
+Função que diz os valores das multas
+'''
 
+
+def valorPagamento(valor, diasAtraso):
+    '''
+    Valor dos atrasos
+    '''
     if valor < 0:
         return None
     if diasAtraso > 0:
