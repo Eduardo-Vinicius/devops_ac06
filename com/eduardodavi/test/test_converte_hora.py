@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 81329e7fb12af513c92d3fd568433f02ea086ab9
 from com.eduardodavi.converte_hora import converteHora
 
 
