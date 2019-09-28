@@ -1,46 +1,45 @@
-from com.eduardodavi.converte_hora import converteHora
+'''
+Converte hora
+'''
 
-"""
-Docstring
-"""
+from com.eduardodavi.converte_hora import converteHora
 
 
 def test_hora():
+    '''
+    Testa a hora do metodo
+    '''
     converte_hora = converteHora(12, 30)
     assert converte_hora == '12:30 PM', "Should be 12:30 PM"
 
-"""
-Docstring
-"""
-
 
 def test_seis():
+    '''
+    Testa hora seis
+    '''
     converte_hora = converteHora(6, 30)
     assert converte_hora == '06:30 AM', "Should be 6:30 AM"
 
-"""
-Docstring
-"""
-
 
 def test_seis_pm():
+    '''
+    testa hora seis da noite
+    '''
     converte_hora = converteHora(18, 30)
     assert converte_hora == '06:30 PM', "Should be 6:30 PM"
 
-"""
-Docstring
-"""
-
 
 def test_meia_noite():
+    '''
+    testa meia noite
+    '''
     meia_noite = converteHora(0, 00)
     assert meia_noite == '12:00 AM', "Should be 12:00 am"
 
-"""
-Docstring
-"""
-
 
 def test_none():
+    '''
+    teste none
+    '''
     none_test = converteHora(34, 30)
     assert none_test is None, "Should be 12:00 am"
