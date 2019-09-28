@@ -53,7 +53,7 @@ def teste_none():
     assert none_valor is None, "Inválido!"
 
 
-def teste_none():
+def teste_none1():
     '''
     Teste do invalido 2
     '''
