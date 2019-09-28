@@ -51,3 +51,11 @@ def teste_none():
     '''
     none_valor = valor_pagamento(-2, 3)
     assert none_valor is None, "Inválido!"
+
+
+def teste_none():
+    '''
+    Teste do invalido 2
+    '''
+    none_valor = valor_pagamento(-4, 3)
+    assert none_valor is None, "Inválido!"
